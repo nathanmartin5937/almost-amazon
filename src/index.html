@@ -8,5 +8,32 @@
 </head>
 <body>
   <div id="app"></div>
+
+  <div id="infoForm">
+    <form>
+      <h3>Add a Book</h3>
+      <div class="formTitle">
+        <label for="title">Book Title</label>
+        <input type="text" class="form-control" id="bookTitle" required>
+      </div>
+      <div class="formImage">
+        <label for="image">Image URL</label>
+        <input type="text" class="form-control" id="imageUrl" required>
+      </div>
+      <div class="formPrice">
+        <label for="price">Price</label>
+        <input type="text" class="form-control" id="price" required>
+      </div>
+      <div class="formAuthor">
+        <label for="author">Author</label>
+        <input type="text" class="form-control" id="author" required>
+      </div>
+      <button type="submit" id="submitBtn"></button>
+    </form>
+    <div class="cardContainer" id="bookCard"></div>
+  </div> 
+
+  <footer>&copy;Nathan Martin</footer>
+
 </body>
 </html>
