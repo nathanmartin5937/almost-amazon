@@ -9,7 +9,7 @@ const getBooks = () => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/books.json`)
     .then((response) => resolve(Object.values(response.data)))
     .catch((error) => reject(error))
-}
+});
     
 // DELETE BOOK
 // CREATE BOOK
